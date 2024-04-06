@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1, 
+      "title": "AI Optimization",
+      "description": "Developed and optimized XGBoost models for predictive analytics. PLACEHOLDER TEXT.",
+      "technologies": ["Python", "XGBoost", "Docker"],
+      "image": "/assets/images/project-ai.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Security Automation",
+      "description": "Automated vulnerability assessment reporting, reducing execution time by 50%.",
+      "technologies": ["Ansible", "Python", "BASH"],
+      "image": "/assets/images/project-security.jpg"
+    }
+  ]
+  

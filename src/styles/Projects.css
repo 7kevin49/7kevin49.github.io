@@ -1,0 +1,19 @@
+.projects {
+    background-color: #DAE8E2;
+    padding: 40px;
+    min-height: 100vh;
+  }
+  
+  .projects h1 {
+    color: #324851;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
