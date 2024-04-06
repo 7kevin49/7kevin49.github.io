@@ -1,0 +1,12 @@
+.about {
+    background-color: #DAE8E2;
+    color: #324851;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-image {
+    max-width: 150px;
+    border-radius: 50%;
+  }
+  
