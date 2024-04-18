@@ -7,7 +7,7 @@ function Resume() {
     <div className="resume">
       <h1>Kevin Perdomo - Resume</h1>
       <p>Explore my professional background and experiences below or download my resume as a PDF.</p>
-      <ResumePDF /> // Button for downloading the PDF
+      {/* <ResumePDF /> */}
       <div className="resume-content">
         <section>
           <h2>Experience</h2>

@@ -1,4 +1,5 @@
-{
+{   
+	"homepage": "https://7kevin49.github.io/",                                                                                                                                                                                  
 	"name": "next-app-template",
 	"version": "0.0.1",
 	"private": true,
@@ -6,7 +7,8 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"deploy": "gh-pages -d build"
 	},
 	"dependencies": {
 		"@nextui-org/button": "^2.0.28",
