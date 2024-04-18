@@ -18,10 +18,16 @@ export default function Home() {
 			</div>
 			<div className="inline-block max-w-lg text-center justify-center">
 				<h1 className={title()}>Kevin Roberto&nbsp;</h1>
-				<h1 className={title({ color: "violet" })}>Perdomo&nbsp;</h1>
+				<h1 className={title({ color: "cyan" })}>Perdomo&nbsp;</h1>
 				<br />
 				<h1 className={title()}>
-					Machine Learning Engineer&nbsp;
+					Artificial Intelligence Machine Learning &nbsp;
+				</h1>
+				<h1 className={title()}>
+					Cybersecurity&nbsp;
+				</h1>
+				<h1 className={title({color: "yellow"})}>
+					& Next....?&nbsp;
 				</h1>
 				<h2 className={subtitle({ class: "mt-4" })}>
 					Beautiful, fast and modern React UI library.
@@ -29,30 +35,9 @@ export default function Home() {
 			</div>
 
 			<div className="flex gap-3">
-				<Link
-					isExternal
-					href={siteConfig.links.docs}
-					className={buttonStyles({ color: "primary", radius: "full", variant: "shadow" })}
-				>
-					Documentation
-				</Link>
-				<Link
-					isExternal
-					className={buttonStyles({ variant: "bordered", radius: "full" })}
-					href={siteConfig.links.github}
-				>
-					<GithubIcon size={20} />
-					GitHub
-				</Link>
+				
 			</div>
 
-			<div className="mt-8">
-				<Snippet hideSymbol hideCopyButton variant="flat">
-					<span>
-						Get started by editing <Code color="primary">app/page.tsx</Code>
-					</span>
-				</Snippet>
-			</div>
 		</section>
 	);
 }
