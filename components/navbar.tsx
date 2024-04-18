@@ -25,6 +25,7 @@ import {
 	DiscordIcon,
 	HeartFilledIcon,
 	SearchIcon,
+	LinkedInIcon
 } from "@/components/icons";
 
 import { Logo } from "@/components/icons";
@@ -56,8 +57,8 @@ export const Navbar = () => {
 			<NavbarContent className="basis-1/5 sm:basis-full" justify="start">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 					<NextLink className="flex justify-start items-center gap-1" href="/">
-						<Logo />
-						<p className="font-bold text-inherit">ACME</p>
+						{/* <Logo /> */}
+						<p className="font-bold text-inherit">Kevin P</p>
 					</NextLink>
 				</NavbarBrand>
 				<ul className="hidden lg:flex gap-4 justify-start ml-2">
@@ -83,19 +84,15 @@ export const Navbar = () => {
 				justify="end"
 			>
 				<NavbarItem className="hidden sm:flex gap-2">
-					<Link isExternal href={siteConfig.links.twitter} aria-label="Twitter">
-						<TwitterIcon className="text-default-500" />
-					</Link>
-					<Link isExternal href={siteConfig.links.discord} aria-label="Discord">
-						<DiscordIcon className="text-default-500" />
-					</Link>
 					<Link isExternal href={siteConfig.links.github} aria-label="Github">
 						<GithubIcon className="text-default-500" />
 					</Link>
-					<ThemeSwitch />
+					<Link isExternal href={siteConfig.links.linkedin} aria-label="LinkedIn">
+						<LinkedInIcon className="text-default-500" />
+					</Link>
 				</NavbarItem>
 				<NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
-				<NavbarItem className="hidden md:flex">
+				{/* <NavbarItem className="hidden md:flex">
 					<Button
             isExternal
 						as={Link}
@@ -106,7 +103,8 @@ export const Navbar = () => {
 					>
 						Sponsor
 					</Button>
-				</NavbarItem>
+				</NavbarItem> */} 
+				{/* The Aboce snippet is to the patreon from someone */}
 			</NavbarContent>
 
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
