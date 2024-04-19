@@ -30,7 +30,7 @@ export default function Home() {
 					& Next....?&nbsp;
 				</h1>
 				<h2 className={subtitle({ class: "mt-4" })}>
-					Beautiful, fast and modern React UI library.
+					Site under construction! Check back soon!
 				</h2>
 			</div>
 
