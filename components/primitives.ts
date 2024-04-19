@@ -51,3 +51,63 @@ export const subtitle = tv({
     fullWidth: true
   }
 });
+
+export const paragraph = tv({
+    base: "text-base lg:text-lg leading-normal",
+    variants: {
+        color: {
+            light: "text-gray-100",
+            dark: "text-gray-800",
+        },
+        fontWeight: {
+            normal: "font-normal",
+            bold: "font-bold",
+        }
+    },
+    defaultVariants: {
+        color: "light",
+        fontWeight: "normal"
+    }
+});
+
+export const h1 = tv({
+    base: "text-4xl lg:text-6xl font-bold leading-tight",
+    variants: {
+        color: {
+            primary: "text-blue-800",
+            secondary: "text-gray-800",
+            accent: "text-red-600",
+        }
+    },
+    defaultVariants: {
+        color: "primary"
+    }
+});
+
+export const h2 = tv({
+    base: "text-3xl lg:text-5xl font-semibold leading-snug",
+    variants: {
+        color: {
+            primary: "text-blue-700",
+            secondary: "text-gray-700",
+            accent: "text-red-500",
+        }
+    },
+    defaultVariants: {
+        color: "primary"
+    }
+});
+
+export const h3 = tv({
+    base: "text-2xl lg:text-4xl font-medium leading-normal",
+    variants: {
+        color: {
+            primary: "text-blue-600",
+            secondary: "text-gray-600",
+            accent: "text-red-400",
+        }
+    },
+    defaultVariants: {
+        color: "primary"
+    }
+});
