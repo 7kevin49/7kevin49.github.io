@@ -102,7 +102,7 @@ export const h3 = tv({
     base: "text-2xl lg:text-4xl font-medium leading-normal",
     variants: {
         color: {
-            primary: "text-blue-600",
+            primary: "text-green-600",
             secondary: "text-gray-600",
             accent: "text-red-400",
         }

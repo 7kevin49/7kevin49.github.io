@@ -1,1 +1,37 @@
-{"homepage":"https://7kevin49.github.io/","name":"next-app-template","version":"0.0.1","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start","lint":"next lint","deploy":"gh-pages -d build"},"dependencies":{"@nextui-org/button":"^2.0.28","@nextui-org/code":"^2.0.25","@nextui-org/input":"^2.1.18","@nextui-org/kbd":"^2.0.26","@nextui-org/link":"^2.0.27","@nextui-org/navbar":"^2.0.28","@nextui-org/scroll-shadow":"^2.1.16","@nextui-org/snippet":"^2.0.32","@nextui-org/switch":"^2.0.26","@nextui-org/system":"2.1.0","@nextui-org/theme":"2.2.0","@react-aria/ssr":"^3.9.2","@react-aria/visually-hidden":"^3.8.10","@types/node":"20.5.7","@types/react":"18.2.21","@types/react-dom":"18.2.7","autoprefixer":"10.4.19","clsx":"^2.0.0","eslint":"8.48.0","eslint-config-next":"14.2.1","framer-motion":"^11.1.1","intl-messageformat":"^10.5.0","next":"14.2.1","next-themes":"^0.2.1","postcss":"8.4.38","react":"18.2.0","react-dom":"18.2.0","tailwind-variants":"^0.1.20","tailwindcss":"3.4.3","typescript":"5.0.4"},"devDependencies":{"gh-pages":"^6.1.1"}}
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-email/components": "^0.0.7",
+    "@react-email/tailwind": "^0.0.8",
+    "@types/node": "20.3.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "autoprefixer": "10.4.14",
+    "clsx": "^1.2.1",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "framer-motion": "^10.12.17",
+    "next": "13.4.8",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.10.1",
+    "react-intersection-observer": "^9.5.2",
+    "react-vertical-timeline-component": "^3.6.0",
+    "resend": "^0.16.0",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.1.5"
+  },
+  "devDependencies": {
+    "@types/react-vertical-timeline-component": "^3.3.3"
+  }
+}

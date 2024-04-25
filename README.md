@@ -1,40 +1,30 @@
-# Next.js & NextUI Template
+[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
 
-This is a template for creating applications using Next.js 13 (app directory) and NextUI (v2).
+# [Watch video here](https://youtu.be/sUKptmUVIBM)
 
-## Technologies Used
+## What you will learn
 
-- [Next.js 13](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+- Latest Next.js 13 features
+- Next.js App Router
+- Next.js Server Actions
+- Client & Server Components
+- TypeScript (Beginner & Intermediate)
+- Tailwind CSS
+- Context API
+- Advanced Animations with Framer Motion
+- React.Email & Resend
+- Custom React hooks
+- Fresh, modern UI design
+- Light & Dark mode
+- Responsive website
 
-## How to Use
+## Important
 
+If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
 
-### Use the template with create-next-app
+I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
 
-To create a new project based on this template using `create-next-app`, run the following command:
+## Setup
 
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+1. Add RESEND_API_KEY environment variable in .env.local
+2. In the send-email.ts action file, change the "to" email to your own email
