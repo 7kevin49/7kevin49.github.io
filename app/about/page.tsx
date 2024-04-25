@@ -1,7 +1,7 @@
 "use client";
-import { title } from "@/components/primitives";
-import { ScrollShadow } from "@nextui-org/scroll-shadow";
-import Content from "./content";
+// import { title } from "@/components/primitives";
+// import { ScrollShadow } from "@nextui-org/scroll-shadow";
+// import Content from "./content";
 // This file will provide the About page component. It has a scrollable element for teh paragraph text. The text appears as you scroll down the page.
 // export default function AboutPage() {
 // 	return (
