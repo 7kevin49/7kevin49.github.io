@@ -23,10 +23,10 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  {
-    name: "Projects",
-    hash: "#projects",
-  },  
+  // {
+  //   name: "Projects",
+  //   hash: "#projects",
+  // },  
   {
     name: "Contact",
     hash: "#contact",
@@ -62,7 +62,7 @@ export const experiencesData = [
     title: "Georgia Institue of Technology",
     location: "Atlanta, GA",
     description:
-      "Graduated with a Bachelor's in Computer Science. Concetration of People and Information Internetworks. Also did some coursework in Aerospace Engineering.",
+      "\u2022 Graduated with a Bachelor's in Computer Science.\n\u2022 Concentration of People and Info/Internetworks.\n \u2022  Also did some coursework in Aerospace Engineering.",
     icon:  React.createElement(LuGraduationCap),
     date: "May 2022",
   },
