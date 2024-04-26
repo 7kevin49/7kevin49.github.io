@@ -35,12 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "AudioT Internship",
+    title: "AI / Machine Learning Engineer @ Lockheed Martin",
+    location: "Marietta, GA",
+    description:
+      "Currently working as a AI / Machine Learning Engineer at Lockheed Martin. I specialize in developing production-ready machine learning models in cloud environments, optimized with microservice architectures. My core technologies include Python, Docker, and AWS.",
+    icon: React.createElement(FaReact),
+    date: "Oct 2023 - present",
+  },
+  {
+    title: "Cybersecurity Engineer @ Lockheed Martin",
+    location: "Marietta, GA",
+    description:
+      "Worked as a Cyber Systems Security Engineer at Lockheed Martin. I worked on a UAV Ground Station program and was responsible for vulnerability management and the implementation of security controls under the Risk Management Framework.",
+    icon: React.createElement(CgWorkAlt),
+    date: "June 2022 - Sep 2023",
+  },
+  {
+    title: "Cloud & ML Consultant @ AudioT",
     location: "Atlanta, GA",
     description:
-      "After a Junior Design project, worked with AudioT to standup and develop their AWS environment. I also worked on Audio Classification models using Python and Sklearn. I built a React Web App for labelling audio data.",
+      "Currently working as a consultant for AudioT. I'm helping them maintain their AWS environement and develop new features for their Audio Classification models. I also dabble with Computer Vision models.",
     icon:  React.createElement(CgWorkAlt),//React.createElement(LuGraduationCap),
-    date: "Summer 2020 - Summer 2022",
+    date: "Summer 2022 - Present",
   },
   {
     title: "Georgia Institue of Technology",
@@ -51,28 +67,12 @@ export const experiencesData = [
     date: "May 2022",
   },
   {
-    title: "AudioT Consultant",
+    title: "Internship @ AudioT",
     location: "Atlanta, GA",
     description:
-      "Currently working as a consultant for AudioT. I'm helping them maintain their AWS environement and develop new features for their Audio Classification models. I also dabble with Computer Vision models.",
+      "After a Junior Design project, worked with AudioT to standup and develop their AWS environment. I also worked on Audio Classification models using Python and Sklearn. I built a React Web App for labelling audio data.",
     icon:  React.createElement(CgWorkAlt),//React.createElement(LuGraduationCap),
     date: "Summer 2020 - Summer 2022",
-  },
-  {
-    title: "Cyber Systems Security Engineer",
-    location: "Marietta, GA",
-    description:
-      "Worked as a Cyber Systems Security Engineer at Lockheed Martin. I worked on a UAV Ground Station program and was responsible for vulnerability management and the implementation of security controls under the Risk Management Framework.",
-    icon: React.createElement(CgWorkAlt),
-    date: "June 2022 - Sep 2023",
-  },
-  {
-    title: "AI / Machine Learning Engineer",
-    location: "Marietta, GA",
-    description:
-      "Currently working as a AI / Machine Learning Engineer at Lockheed Martin. I specialize in developing production-ready machine learning models in cloud environments, optimized with microservice architectures. My core technologies include Python, Docker, and AWS.",
-    icon: React.createElement(FaReact),
-    date: "Oct 2023 - present",
   },
 ] as const;
 
