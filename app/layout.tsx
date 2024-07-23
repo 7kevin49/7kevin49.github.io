@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Kevin RP | Vinny's Look at the World",
-  description: "Kevin is a AI/Machine Learning Engineer with 3 years of experience. He enjoys building software and learning new technologies.",
+  description: "Kevin is an AI/Machine Learning Engineer with 3 years of experience. He enjoys building software and learning new technologies.",
 };
 
 export default function RootLayout({

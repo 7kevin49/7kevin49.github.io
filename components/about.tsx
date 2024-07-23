@@ -11,13 +11,15 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-justify leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[45rem] text-justify-left leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+
+      {/* This is  where we want two columns */}
       <p className="mb-3">
         After embarking on an internship that kickstarted my exposure to the field, I graduated from Georgia Tech with a degree in {" "}
         <span className="font-medium">Computer Science</span>. This early experience at a startup in Atlanta introduced me to {" "}

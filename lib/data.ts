@@ -35,11 +35,19 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "ML Ops Engineer @ Clovis Capital",
+    location: "Remote (Contract Role)",
+    description:
+      "Currently working as a ML Ops Engineer at Clovis Capital. My role involves developing a Machine learning model training pipeline for Quantitative Trading. This involved using GCP, Vertex AI and Kubeflow, along with other ML packages such as Tensorflow and Sklearn.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2023 - present",
+  },
+  {
     title: "AI / Machine Learning Engineer @ Lockheed Martin",
     location: "Marietta, GA",
     description:
-      "Currently working as a AI / Machine Learning Engineer at Lockheed Martin. I specialize in developing production-ready machine learning models in cloud environments, optimized with microservice architectures. My core technologies include Python, Docker, and AWS.",
-    icon: React.createElement(FaReact),
+      "Recently an AI / Machine Learning Engineer at Lockheed Martin. I specialized in developing production-ready machine learning models in cloud environments, optimized with microservice architectures. My core technologies include Python, Docker, and AWS.",
+    icon: React.createElement(CgWorkAlt),
     date: "Oct 2023 - present",
   },
   {
