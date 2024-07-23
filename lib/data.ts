@@ -48,7 +48,7 @@ export const experiencesData = [
     description:
       "Recently an AI / Machine Learning Engineer at Lockheed Martin. I specialized in developing production-ready machine learning models in cloud environments, optimized with microservice architectures. My core technologies include Python, Docker, and AWS.",
     icon: React.createElement(CgWorkAlt),
-    date: "Oct 2023 - present",
+    date: "Oct 2023 - June 2024",
   },
   {
     title: "Cybersecurity Engineer @ Lockheed Martin",
